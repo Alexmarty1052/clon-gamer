@@ -1,0 +1,92 @@
+:root {
+  --warm-black: #201e1c;
+  --black: #282623;
+  --grey: #bababa;
+  --grey-claro: #808080;
+  --grey-oscuro: #757575;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--black);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+header .logo-img {
+  width: 30px;
+  border-radius: 50%;
+  margin: 12px;
+}
+
+.user-data {
+  width: 40%;
+}
+
+.user-data .user--name {
+  font-size: 1.2rem;
+  color: var(--off-white);
+  font-weight: bold;
+}
+
+.user-data .ultimate {
+  display: inline-block;
+  background-color: var(--off-white);
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1px;
+  border-radius: 2px;
+}
+
+.user-data .user--points {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  color: var(--off-white);
+}
+
+.user-data .logo-points {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url('../assets/logos/logo-G2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--off-white);
+  margin: 0 4px 0 0;
+  border-radius: 50%;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.main-nav .nav-img {
+  width: 30px;
+  margin: 4px;
+  background-color: var(--grey-claro);
+  border-radius: 50%;
+  padding: 6px;
+}
