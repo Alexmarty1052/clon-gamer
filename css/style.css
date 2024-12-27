@@ -2,7 +2,7 @@
   --warm-black: #201e1c;
   --black: #282623;
   --grey: #bababa;
-  --grey-claro: #808080;
+  --grey-claro: #5f5f5f;
   --grey-oscuro: #757575;
   --off-white: #faf8f7;
   --just-white: #fff;
@@ -26,17 +26,17 @@ header {
   align-items: center;
   width: 100%;
   height: 30px;
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 header .logo-img {
-  width: 30px;
+  width: 40px;
   border-radius: 50%;
   margin: 12px;
 }
 
 .user-data {
-  width: 40%;
+  width: 31%;
 }
 
 .user-data .user--name {
@@ -84,7 +84,7 @@ header .logo-img {
 }
 
 .main-nav .nav-img {
-  width: 30px;
+  width: 40px;
   margin: 4px;
   background-color: var(--grey-claro);
   border-radius: 50%;
